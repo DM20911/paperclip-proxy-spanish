@@ -1,0 +1,13 @@
+{
+  "name": "paperclip-spanish-ui-proxy",
+  "version": "1.0.0",
+  "description": "Proxy de traducción al español para la UI de Paperclip",
+  "type": "module",
+  "scripts": {
+    "start": "node proxy.mjs",
+    "start:custom": "PROXY_PORT=3101 PAPERCLIP_PORT=3100 node proxy.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
